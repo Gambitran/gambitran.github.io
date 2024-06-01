@@ -1,3 +1,3 @@
 # tantran.io
 
-Source code for my main page
+Source code for my main website
