@@ -1,0 +1,23 @@
+body {
+    background-color: #0d1b2a;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+.social-media {
+    filter: invert(79%) sepia(1%) saturate(368%) hue-rotate(34deg) brightness(116%) contrast(92%);
+}
+
+.social-media:hover {
+    filter: invert(57%) sepia(12%) saturate(794%) hue-rotate(174deg) brightness(94%) contrast(90%);
+}
