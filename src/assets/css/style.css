@@ -4,20 +4,39 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
 }
 
-h1 {
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.name {
+    font-size: 75px;
     font-weight: 700;
+    margin: 20px;
 }
 
-h3 {
+.work {
+    font-size: 25px;
     font-weight: 100;
+    margin: 20px;
 }
 
-.social-media {
+.social {
     filter: invert(79%) sepia(1%) saturate(368%) hue-rotate(34deg) brightness(116%) contrast(92%);
+    width: 25px;
+    height: 35px;
+    margin: 10px;
 }
 
-.social-media:hover {
+.social:hover {
     filter: invert(57%) sepia(12%) saturate(794%) hue-rotate(174deg) brightness(94%) contrast(90%);
 }
