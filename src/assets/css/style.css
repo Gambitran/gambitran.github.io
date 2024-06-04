@@ -10,6 +10,15 @@ body {
     text-align: center;
 }
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}    
+
 .container {
     position: absolute;
     top: 50%;
@@ -22,12 +31,18 @@ body {
     font-size: 75px;
     font-weight: 700;
     margin: 20px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .work {
     font-size: 25px;
     font-weight: 100;
     margin: 20px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .social {
@@ -35,6 +50,9 @@ body {
     width: 25px;
     height: 35px;
     margin: 10px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .social:hover {
